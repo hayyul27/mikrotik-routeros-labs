@@ -12,7 +12,7 @@ Mengenal perintah dasar RouterOS: melihat informasi sistem, mengganti nama route
 
 ## Topologi
 
-![images](topologi.png)
+![](images/topologi.png)
 
 | Perangkat | Interface | IP Address |
 |---|---|---|
@@ -23,45 +23,42 @@ Mengenal perintah dasar RouterOS: melihat informasi sistem, mengganti nama route
 
 Berikut perintah yang akan kita jalankan:
 
-1. /system resource print
+### /system resource print
 
-![images](resource.png)
+![](images/resource.png)
 
 Fungsi dari perintah ini adalah untuk menampilkan versi RouterOS, RAM, dan CPU.
 
-2. /system identity set name=R1
+### /system identity set name=R1
 
-![images](identity.png)
+![](images/identity.png)
 
 Perintah ini berfungsi untuk mengganti nama Router.
 
-3. /interface print
+### /interface print
 
-![images](interface.png)
+![](images/interface.png)
 
 Perintah ini berfungsi untuk menampilkan daftar interface. Dalam mendesain jaringan perhatikan nama dan statusnya untuk di sambungkan ke client.
 
-4. /ip address add address=192.168.10.1/24 interface=ether1
-
-![images](ip.png)
+### /ip address add address=192.168.10.1/24 interface=ether1
 
 Perintah ini berfungsi untuk memberikan IP Address ke interface yaitu disini kita berikan ke interface 1 (ether 1).
 
-5. /ip address print
+### /ip address print
 
-![images](ether1.png)
+![](images/ip.png)
 
 Perintah ini berfungsi untuk memastikan ip address yang kita masukkan tadi sudah terpasang ke ether1.
 
-6. /export
+### /export
 
-![images](export.png)
+![](images/export.png)
 
 Perintah ini berfungsi untuk menampilkan seluruh konfigurasi yang kita lakukan tadi dalam bentuk teks. 
-
 
 ## Pengujian Koneksi
 
 Kita akan sedikit lakukan simulasi dengan memberikan ip address ke PC yang terhubung ke Router. Setelah itu dari PC kita nge-ping ke ip address Router.
 
-![images](pc.png)
+![](images/pc.png)
