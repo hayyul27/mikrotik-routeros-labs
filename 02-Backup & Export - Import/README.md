@@ -29,6 +29,7 @@ Berikut perintah yang akan kita jalankan:
 ### Mengahpus DHCP Client bawaan
 
 /ip dhcp-client print
+
 /ip dhcp-client remove [find]
 
 Router CHR yang kita gunakan memiliki DHCP Client bawaan di ether1. Pada lab ini ether1 tidak dipakai yang kita pakai sesuai lab sebelumnya yaitu ether2. Karena ether1 ini tidak kita pakai sebagai WAN, maka entrinya kita hapus sebelum export.
@@ -36,7 +37,9 @@ Router CHR yang kita gunakan memiliki DHCP Client bawaan di ether1. Pada lab ini
 ### Membuat backup dan export
 
 /system backup save name=lab02
+
 /export file=lab02
+
 /file print
 
 Penjelasan:
@@ -57,6 +60,7 @@ Perbedaan kedua file:
 Nama router kita ubah dulu supaya terlihat perubahannya
 
 /system identity set name=Router
+
 /system backup load name=lab02
 
 ketika diminta untuk konfirm, masukkan password router dan ketik 'y'
@@ -95,6 +99,7 @@ Router akan restart, login ulang seperti diawal dengan user admin dan password k
 setelah itu, cek:
 
 /file print
+
 /ip address print
 
 'lab02.rsc' harus dipastikan ada di daftar. setelah itu import file .rsc.
