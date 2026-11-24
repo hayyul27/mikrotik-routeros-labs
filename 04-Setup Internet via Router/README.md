@@ -131,8 +131,6 @@ Penjelasannya:
 - allow-remote-request=yes membuat router melayani permintaan DNS dari perangkat lain, termasuk PC1.
 - ip dns pada VPCS memberi tahu PC1 untuk bertanya DNS ke router.
 
-![](images/ip-dns.png)
-
 Hasil terjemahan nama bisa dilihat di cache DNS router:
 
 ```routeros
