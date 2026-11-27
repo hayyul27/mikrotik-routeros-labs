@@ -59,6 +59,7 @@ Hasilnya menampilkan 'level:free'. Pada CHR, level ini adalah lisensi gratis yan
 | Channel | Versi terpasang | Versi terbaru yang ditawarkan |
 |---|---|---|
 | stable | 7.21.5 | 7.25.2 |
+
 ![](images/clock-wita.png)
 
 Status yang tampil adalah `New version is available`. Perintah ini hanya membandingkan versi dan tidak mengunduh atau memasang apa pun.
