@@ -75,6 +75,6 @@ Penjelasan:
 /system clock print
 ```
 
-![](images/ntp-client.png)
+![](images/clock-akhir.png)
 
 Jam router sudah sama dengan jam di laptop saya dan zona waktunya WITA.
